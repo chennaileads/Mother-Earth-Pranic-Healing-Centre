@@ -471,8 +471,8 @@ body {
 }
 
 .sis-br-radius {
-	border-radius: 24px;
-	margin: 0px 15px 0 15px;
+	border-radius: 0px;
+	margin: 0px 0px 0 0px;
 }
 
 ::-webkit-scrollbar {
@@ -1681,7 +1681,7 @@ body {
 
 .sisf-why-chhose-image-top figure, 
 .sisf-why-chhose-side-image figure {
-    width: 70%;
+    width: 100%;
 }
 
 .sisf-why-chhose-side-image {
@@ -6042,12 +6042,12 @@ ease-in-out;
 	#sisf-page-header-inner {
 		padding: 10px;
 		background-color: var(--primary-color);
-		border-radius: 16px;
+		/* border-radius: 16px; */
 	}
 
-	.sis-br-radius {
+	/* .sis-br-radius {
 		border-radius: 16px;
-	}
+	} */
 
 	br {
 		display: none;
