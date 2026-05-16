@@ -109,7 +109,7 @@ Sidebar heading     :  22px,700,Bold "Noto Serif", serif (Heading Font)
 
 body {
 	font-family: var(--default-font);
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: 500;
 	line-height: 28px;
 	color: var(--text-color);
@@ -662,7 +662,7 @@ body {
 ============================= */
 #sisf-page-header-inner {
     height: 100%;
-    padding: 10px 20px;
+    padding: 0px 20px;
 	border-bottom: 1px solid #FFFFFF1A;
 }
 
@@ -670,6 +670,7 @@ body {
 	position: relative;
 	z-index: 100;
 	transition: all 0.2s ease-in-out;
+	background-color: #001e2cb7;
 }
 
 .sis-main-header .sis-header-sticky {
@@ -4221,14 +4222,17 @@ form .form-row label {
     font-weight: 400;
     line-height: normal;
 	position: relative;
+	color: var(--primary-color) ;
 }
 
 .sisf-breadcrumbs span i {
 	font-size: 14px !important;
+	color: var(--primary-color) ;
 }
 
 .sisf-breadcrumbs-link span {
 	position: relative;
+	color: var(--primary-color) ;
 }
 
 .sisf-breadcrumbs-link span::after {
@@ -4242,16 +4246,18 @@ form .form-row label {
 	bottom: -2px;
 	margin: 0 auto;
 	transition: 0.3s ease-in-out;
+	color: var(--primary-color) ;
 }
 
 .sisf-breadcrumbs-link:hover span::after {
 	width: 100%;
 	transition: 0.3s ease-in-out;
 	background: var(--main-color);
+	color: var(--primary-color) ;
 }
 
 .sisf-breadcrumbs-link:hover span {
-	color: var(--main-color) !important;
+	color: var(--primary-color) !important;
 	transition: 0.3s ease-in-out;
 }
 
